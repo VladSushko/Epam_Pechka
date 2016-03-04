@@ -1,0 +1,10 @@
+﻿@model Pechka.WEB.Models.User
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(u => u.FirstName)
+    @Html.EditorFor(u => u.FirstName)
+    @Html.LabelFor(u => u.LastName)
+    @Html.EditorFor(u => u.LastName)
+}
+
+
